@@ -7,7 +7,7 @@ html, body {
     background-color: #333333;
     position: fixed;
     width: 100%;
-    z-index: 5;
+    z-index: 1;
   }
   
   nav {
@@ -21,7 +21,7 @@ html, body {
     font-weight: 600;
     font-size: 12px;
     display: inline-block;
-    width: 80px;
+    width: 40px;
   }
   
   main {
@@ -45,6 +45,10 @@ html, body {
     background-color: #333;
     color: #fff;
     padding: 30px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    bottom: 0;
   }
   
   footer p {
@@ -100,7 +104,8 @@ html, body {
   .supporting .col {
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    display: inline-block
+    display: inline-block;
+    width: 200px;
   }
   
   .supporting img {
